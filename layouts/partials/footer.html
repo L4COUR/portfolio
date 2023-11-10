@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="footer-copyright">
       <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>
-        Frederik la Cour | {{ $tagList := slice }}
+         Frederik la Cour | {{ $tagList := slice }}
 
           {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
             {{ $cnt := $taxonomy.Count }}
@@ -19,6 +19,9 @@
               <sup>{{ $tag.count }}</sup>
             {{ end }}
           {{ end }}</p>
+          <a href="https://www.instagram.com/la__cour/">Instagram</a>
+          <a href="https://www.linkedin.com/in/l4cour/">Linkedin</a>
+          <a href="https://github.com/L4COUR/">Github</a>
     </div>
 
     <div class="footer-Contact">
