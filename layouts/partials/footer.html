@@ -1,0 +1,31 @@
+<div class="footer">
+    <div class="footer-copyright">
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>
+        Frederik la Cour | {{ $tagList := slice }}
+
+          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            {{ $cnt := $taxonomy.Count }}
+            {{ $cleanedName := replace $name "-" " " }}
+            {{ if ge $cnt 3 }}
+              {{ $tagList = $tagList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+            {{ end }}
+          {{ end }}
+          
+          {{ $sortedTags := sort $tagList "count" "desc" }}
+          
+          {{ range $tag := $sortedTags }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
+              <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }}</a>
+              <sup>{{ $tag.count }}</sup>
+            {{ end }}
+          {{ end }}</p>
+    </div>
+
+    <div class="footer-Contact">
+Contact
+<br>
+      <a href = "mailto: frederiklacour@protonmail.com">frederiklacour@protonmail.com</a>
+      <p>Tel: +45 21 66 78 37</p>
+    
+  </div>
+</div>

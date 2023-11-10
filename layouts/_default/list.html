@@ -1,0 +1,28 @@
+{{ define "main" }}              
+<br/>
+{{ .Content }}
+
+<div class="posts-list">
+{{ range sort .Data.Pages "Date" "desc" }}
+    {{ if not .Params.private }}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                <div style="color:grey; font-size:15px;">{{ if .Params.tags }}Roles: {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div style="color:grey; font-size:15px;">{{ if .Params.categories }}Area: {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <br>
+                {{ $image := .Page.Resources.GetMatch .Params.image }}
+            {{ with $image }}
+                {{ $thumb := .Resize "1920x" }}
+                <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}">
+                {{end}}
+                <br>
+                {{ .Summary }}
+            </p>
+        </div>
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}

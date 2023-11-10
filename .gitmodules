@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-theme-console"]
+	path = themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "themes/hugo-shortcode-roneo-collection"]
+	path = themes/hugo-shortcode-roneo-collection
+	url = https://gitlab.com/Roneo/hugo-shortcode-roneo-collection.git
+[submodule "themes/hugo-embed-pdf-shortcode"]
+	path = themes/hugo-embed-pdf-shortcode
+	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git

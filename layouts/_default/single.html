@@ -1,0 +1,43 @@
+{{ define "main" }}
+I am Frederik la Cour, a
+{{ $tagList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $tagList = $tagList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedTags := sort $tagList "count" "desc" }}
+
+{{ range $tag := $sortedTags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }},</a>
+
+  {{ end }}
+{{ end }}
+based in Copenhagen, Denmark. Since 2016, my professional journey has spanned the fields of
+{{ $categoriesList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $categoriesList = $categoriesList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedCategories := sort $categoriesList "count" "desc" }}
+
+{{ range $categories := $sortedCategories }}
+  {{ with $.Site.GetPage (printf "/categories/%s" $categories.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }},</a>
+
+  {{ end }}
+{{ end }}
+<br></br>
+{{ .Content }}
+
+{{end}}

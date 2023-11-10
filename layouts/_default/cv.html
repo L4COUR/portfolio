@@ -1,0 +1,27 @@
+{{ define "main" }}
+<style>
+
+.pdf {
+    width: 800px; 
+    height: 1183px;
+}
+
+@media only screen and (max-width: 850px) {
+   
+
+    .pdf {
+    width: 100%; 
+    height: 640px;
+    margin-left: 0;
+    }
+
+}
+
+</style>
+
+<embed src="Frederik la Cour - ART CV (3).pdf" class="pdf" 
+ type="application/pdf">
+
+
+
+{{end}}

@@ -1,0 +1,49 @@
+<div class="container">
+    <style>
+    audio::-webkit-media-controls-play-button {
+        background-color: rgb(255, 253, 253);
+        border-radius: 50%;
+    }
+
+    audio::-webkit-media-controls-play-button:hover {
+        background-color: #1a95e0;
+        border-radius: 50%;
+        transition: .5s ease;
+    }
+
+    audio::-webkit-media-controls-panel {
+        background-color: rgb(255, 253, 253);
+    }
+
+    audio::-webkit-media-controls-mute-button {
+        background-color: rgb(255, 253, 253);
+        border-radius: 50%;
+    }
+
+    audio::-webkit-media-controls-mute-button:hover {
+        background-color: #1a95e0;
+        border-radius: 50%;
+        transition: .5s ease;
+    }
+
+
+    audio::-webkit-media-controls-volume-slider {
+        background-color: #ffffff;
+        border-radius: 25px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display {
+        display: none;
+    }
+
+    </style>
+    <audio controls loop controlsList="noplaybackrate nodownload" class="audio-player" style="width: 100%; 
+    margin-bottom: 10px">
+        {{ with .Get "wav" }}<source type="audio/wav" src="{{ . }}">{{ end }}
+        {{ with .Get "ogg" }}<source type="audio/ogg" src="{{ . }}">{{ end }}
+        {{ with .Get "mp3" }}<source type="audio/mpeg" src="{{ . }}">{{ end }}
+        Your browser does not support the audio element.
+    </audio>
+    </div>

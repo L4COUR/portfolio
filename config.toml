@@ -1,0 +1,33 @@
+baseurl = "https://example.com/"
+title = "Frederik la Cour"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+enableInlineShortcodes = true
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+      [[params.navlinks]]
+  name = "cv/"
+  url = "cv/"
+  
+  [[params.navlinks]]
+  name = "projects/"
+  url = "projects/"
+
+    [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

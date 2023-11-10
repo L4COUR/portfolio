@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+
+<h1>Latest projects</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/projects" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+            
+        {{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "600x" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive">
+        {{end}}
+            <div class="hide">
+                {{ .Date.Format "2006"}}
+                <br>
+                <strong style="color:rgb(244, 244, 244); font-size:16px;">{{.Title}}</strong>
+                <div>
+                  {{ range $index, $tag := .Params.tags }}
+                      {{if $index}}, {{end}}
+                      <span style="display: inline-block; word-wrap: break-word; margin-left: 10px;">{{$tag}}</span>
+                  {{end}}
+              </div>
+            </div>
+        </a>
+    {{ end }}
+{{ end }}
+</div>
+
+<h1>Latest posts</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ $image := .Page.Resources.GetMatch .Params.image }}
+                {{ with $image }}
+                    {{ $thumb := .Resize "1920x" }}
+                    <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}">
+                    {{end}}
+                    <br>
+                <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                {{ .Summary }}
+                
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}
