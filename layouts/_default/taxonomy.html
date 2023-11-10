@@ -1,5 +1,4 @@
 {{ define "main" }}
-<h1>I am a taxonomy page</h1>
 <br/>
 {{ .Content }}
 
@@ -13,8 +12,8 @@
                     <div class="date">{{ .Format "Jan. 2, 2006" }}</div>
                 {{ end }}
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                <div style="color:grey; font-size:15px;">{{ if .Params.tags }}Roles: {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-                <div style="color:grey; font-size:15px;">{{ if .Params.categories }}Area: {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div style="color:grey; font-size:15px;">{{ if .Params.tags }}Roles: {{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div style="color:grey; font-size:15px;">{{ if .Params.categories }}Area: {{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
                 {{ .Summary }}
             </p>
         </div>
