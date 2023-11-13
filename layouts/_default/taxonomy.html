@@ -51,8 +51,8 @@
                     <div class="date">{{ .Format "Jan. 2, 2006" }}</div>
                 {{ end }}
                 <div><strong><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></strong>
-                <div>{{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
-                <div>{{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                {{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
+                {{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
                 {{ .Summary }}
             </p>
         </div>
