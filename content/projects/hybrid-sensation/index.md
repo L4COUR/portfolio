@@ -6,12 +6,13 @@ tags = ["sound engineer", "VR technician"]
 categories = ["virtual reality", "mixed reality"]
 type = "gallery"
 +++
+![](hybridsensation_real.jpeg)
+
+
 Immersive and multisensory experience involving interaction and physical contact with actors and participants. Multisensory interaction within the virtual and physical reality. Produced by Jakob la Cour Studio
 Performed at The Royal Danish Theatre, Skuespilhuset
 As part of K:SELEKT
 <!--more-->
-
-![](hybridsensation_real.jpeg)
 
 Hybrid Sensation takes place both in The Royal Danish Theatre's blackbox and in a virtual parallel world, which the audience becomes a part of as soon as they are equipped with VR headsets. During the performance, a puppet-like host, played by Iza Mortag Freund, invites the audience to interact with the shared meta-reality. Together, everyone becomes part of a mixed reality ceremony.
 

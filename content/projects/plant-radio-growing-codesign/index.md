@@ -7,11 +7,10 @@ categories = ["physical computing"]
 type = "gallery"
 +++
 
-Developing and implementing sound for the plant radio
 {{< youtube sTZto3Knw10 >}}
 
 <!--more-->
-
+Developing and implementing sound for the plant radio.
 The project investigated the use of creative practice and digital technologies as a method to include nature as a partner in design practice. More specifically we harvested the electrophysiological signals emitted by plants with medical sensing technology as the base for plant-human creative-aesthetic collaborations.
 
 ![](plant-radio-sign.jpeg)

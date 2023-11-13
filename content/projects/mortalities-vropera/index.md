@@ -6,9 +6,10 @@ tags = ["sound designer", "audio programmer"]
 categories = ["virtual reality", "game audio"]
 type = "gallery"
 +++
+{{< youtube z7PCftyA1-E >}}
+
 
 I designed and implemented sound effects using Wwise and Unity. Worked closely together with SØS Gunver Ryberg in implementing her compositions through a combination of ambisonics and object-based audio within Wwise middleware.
-{{< youtube z7PCftyA1-E >}}
 <!--more-->
 
 Four guests are let in at a time for this exclusive experience which is both physical and virtual. After an entering ritual you physically walk around in a big live installation where a multisensorial death opera is taking place.

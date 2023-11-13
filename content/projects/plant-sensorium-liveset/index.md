@@ -6,9 +6,11 @@ tags = ["sound designer", "interaction designer"]
 categories = ["live performance", "physical computing"]
 type = "gallery"
 +++
-In late august I was approached by Margrete Lodahl Rolighed and asked I was interested in performing live electronic music together with the 'Plante Sensorium' installation for the Processing Community Day 2023 at the Aarhus school of architecture.
+
 {{< youtube kyorEDb8eLk >}}
-<br>
+
+
+In late august I was approached by Margrete Lodahl Rolighed and asked I was interested in performing live electronic music together with the 'Plante Sensorium' installation for the Processing Community Day 2023 at the Aarhus school of architecture.
 
 <!--more-->
 Margrete had been working together with Marcus Due Jensen and Martin Rossing Mørk on coupling 12 plants with capacitive sensors which enabled them to send triggers that could be interpreted through sound and light. The 'Plante Sensorium' installtion had earlier the same year debuted at Maker Faire Aarhus. However, for Processing Community Day 2023, We saw an oppertunity to transform the installation into an instrument.

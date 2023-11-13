@@ -2,7 +2,7 @@
 title = "Feum Live Performance"
 date = "2018-10-14"
 tags = ["composer", "sound designer"]
-image = "feum-liveperformance.jpg"
+image = "feum-liveperformance-cropped.jpg"
 categories = ["live performance"]
 +++
 
