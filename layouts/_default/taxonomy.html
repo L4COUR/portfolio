@@ -1,4 +1,25 @@
 {{ define "main" }}
+<br/>
+{{ .Content }}
+
+<div class="posts-list">
+{{ range sort .Data.Pages "Date" "desc" }}
+    {{ if not .Params.private }}
+    
+        <div class="post">
+            <p>
+                {{ with .PublishDate }}
+                    <div class="date">{{ .Format "Jan. 2, 2006" }}</div>
+                {{ end }}
+                <div><strong><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></strong>
+                {{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
+                {{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
+                {{ .Summary }}
+            </p>
+        </div>
+    {{ end }}
+{{ end }}
+</div>
 
 <h1>tags/</h1>
 {{ $tagList := slice }}
@@ -38,26 +59,5 @@
   {{ end }}
 {{ end }}
 
-<br/>
-{{ .Content }}
-
-<div class="posts-list">
-{{ range sort .Data.Pages "Date" "desc" }}
-    {{ if not .Params.private }}
-    
-        <div class="post">
-            <p>
-                {{ with .PublishDate }}
-                    <div class="date">{{ .Format "Jan. 2, 2006" }}</div>
-                {{ end }}
-                <div><strong><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></strong>
-                {{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
-                {{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-                {{ .Summary }}
-            </p>
-        </div>
-    {{ end }}
-{{ end }}
-</div>
 
 {{ end }}
