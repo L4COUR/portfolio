@@ -3,7 +3,7 @@ image = "hybridsensation-mixedreality.png"
 date = "2023-10-24"
 title = "Hybrid Sensation"
 tags = ["sound engineer", "VR technician"]
-categories = ["vr", "mixed reality"]
+categories = ["virtual reality", "mixed reality"]
 type = "gallery"
 +++
 Immersive and multisensory experience involving interaction and physical contact with actors and participants. Multisensory interaction within the virtual and physical reality. Produced by Jakob la Cour Studio

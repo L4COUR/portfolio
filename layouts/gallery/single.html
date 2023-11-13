@@ -1,9 +1,8 @@
 {{ define "main" }}
-<h1>{{ .Page.Title }}</h1>
-<div style="color:grey; font-size:16px;">{{ if .Params.tags }}Roles: {{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-<div style="color:grey; font-size:16px;">{{ if .Params.categories }}Area: {{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-{{ .Title}}
-
+<div><strong>{{ .Page.Title }}</strong>
+{{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
+{{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
+<br>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}
 

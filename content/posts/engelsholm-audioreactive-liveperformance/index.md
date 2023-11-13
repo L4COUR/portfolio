@@ -1,7 +1,7 @@
 +++
 title = "Engelsholm: Audioreactive Live Performance"
 date = "2016-11-20"
-tags = ["composer", "sound Designer"]
+tags = ["composer", "sound designer"]
 categories = ["live performance"]
 +++
 

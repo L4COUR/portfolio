@@ -8,8 +8,8 @@ categories = ["research"]
 
 {{< youtube cgs24Y4vIjI >}}
 
-In my thesis I am investigating Poul la Cour’s “tonestrøms-apparat” through media archaeological methods grounded in patent drawings, reproduction and re-enactment with the aim to demonstrate “tonestrøms-apparatets” epistemological implications of our understanding of contemporary digital medias.
 
+In my thesis I am investigating Poul la Cour’s “tonestrøms-apparat” through media archaeological methods grounded in patent drawings, reproduction and re-enactment with the aim to demonstrate “tonestrøms-apparatets” epistemological implications of our understanding of contemporary digital medias.
 <!--more-->
 
 My media archaeological approach offers a different kind of knowledge about “tonestrøms-apparatet” than what we would get through a historical chronological approach. Through my re-enactments we are able to study and form meaning based on functional operations of the circuit and materiality within “tonestrøms-apparatet” which aside from offering an understanding of contemporary digital media also reveals its potentials for future modification and alternate use cases which are able to connect operational functionalities from the past with contemporary digital technology and thereby create a short-circuit between the past and now. 

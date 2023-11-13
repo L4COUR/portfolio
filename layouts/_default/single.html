@@ -1,4 +1,11 @@
 {{ define "main" }}
+
+{{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "1000x" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="" class="">
+        {{end}}
+
 I am Frederik la Cour, a
 {{ $tagList := slice }}
 
@@ -14,11 +21,11 @@ I am Frederik la Cour, a
 
 {{ range $tag := $sortedTags }}
   {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
-    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }},</a>
+    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }}</a>/
 
   {{ end }}
 {{ end }}
-based in Copenhagen, Denmark. Since 2016, my professional journey has spanned the fields of
+based in Copenhagen, Denmark. Since 2016, I have actively engaged with diverse domains such as
 {{ $categoriesList := slice }}
 
 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
@@ -33,14 +40,12 @@ based in Copenhagen, Denmark. Since 2016, my professional journey has spanned th
 
 {{ range $categories := $sortedCategories }}
   {{ with $.Site.GetPage (printf "/categories/%s" $categories.originalName) }}
-    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }},</a>
+    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }}</a>/
 
   {{ end }}
-{{ end }}
+{{ end }}.
+My work involves a synthesis of these disciplines, contributing to the innovative and evolving landscape of audio and interactive experiences.
 <br></br>
 {{ .Content }}
-<a href="https://www.instagram.com/la__cour/">Instagram</a>
-          <a href="https://github.com/L4COUR/">Github</a>
-          <a href="https://www.linkedin.com/in/l4cour/">Linkedin</a>
 
 {{end}}

@@ -1,7 +1,44 @@
 {{ define "main" }}
 
+<h1>tags/</h1>
+{{ $tagList := slice }}
 
-<h1>Latest projects</h1>
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $tagList = $tagList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedTags := sort $tagList "count" "desc" }}
+
+{{ range $tag := $sortedTags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }}</a>/
+
+  {{ end }}
+{{ end }}
+
+{{ $categoriesList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $categoriesList = $categoriesList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedCategories := sort $categoriesList "count" "desc" }}
+
+{{ range $categories := $sortedCategories }}
+  {{ with $.Site.GetPage (printf "/categories/%s" $categories.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }}</a>/
+  {{ end }}
+{{ end }}
+
+<h1>latest projects</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/projects" }}
@@ -10,7 +47,7 @@
             
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
-            {{ $thumb := .Resize "600x" }}
+            {{ $thumb := .Resize "1000x" }}
             <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive">
         {{end}}
             <div class="hide">
@@ -29,7 +66,7 @@
 {{ end }}
 </div>
 
-<h1>Latest posts</h1>
+<h1>latest posts</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -37,15 +74,17 @@
         <div class="post">
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                <div>
+                <strong><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></strong>
+                {{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
+                {{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
                 {{ $image := .Page.Resources.GetMatch .Params.image }}
                 {{ with $image }}
                     {{ $thumb := .Resize "1920x" }}
+                    <br>
                     <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}">
                     {{end}}
                     <br>
-                <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-                <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
                 {{ .Summary }}
                 
             </p>

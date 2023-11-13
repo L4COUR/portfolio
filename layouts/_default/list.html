@@ -8,9 +8,9 @@
         <div class="post">
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                <div style="color:grey; font-size:15px;">{{ if .Params.tags }}Roles: {{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-                <div style="color:grey; font-size:15px;">{{ if .Params.categories }}Area: {{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+                <div ><strong><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></strong>
+                {{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
+                {{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
                 <br>
                 {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
@@ -24,5 +24,43 @@
     {{ end }}
 {{ end }}
 </div>
+
+<h1>tags/</h1>
+{{ $tagList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $tagList = $tagList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedTags := sort $tagList "count" "desc" }}
+
+{{ range $tag := $sortedTags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }}</a>/
+
+  {{ end }}
+{{ end }}
+
+{{ $categoriesList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $categoriesList = $categoriesList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedCategories := sort $categoriesList "count" "desc" }}
+
+{{ range $categories := $sortedCategories }}
+  {{ with $.Site.GetPage (printf "/categories/%s" $categories.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }}</a>/
+  {{ end }}
+{{ end }}
 
 {{ end }}

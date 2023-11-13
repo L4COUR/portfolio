@@ -17,7 +17,7 @@
                     <br>
                     <div>
                         {{ range $index, $tag := .Params.tags }}
-                            {{ if $index}}, {{ end }}
+                            {{ if $index}} {{ end }}
                             <span style="display: inline-block; word-wrap: break-word; margin-left: 10px;">{{ $tag }}</span>
                         {{end}}
                     </div>
@@ -27,6 +27,42 @@
     {{ end }}
 </div>
 
+<h1>tags/</h1>
+{{ $tagList := slice }}
 
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $tagList = $tagList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedTags := sort $tagList "count" "desc" }}
+
+{{ range $tag := $sortedTags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $tag.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with tag <i>{{ $tag.name }}</i>">{{ $tag.name }}</a>/
+
+  {{ end }}
+{{ end }}
+
+{{ $categoriesList := slice }}
+
+{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  {{ $cnt := $taxonomy.Count }}
+  {{ $cleanedName := replace $name "-" " " }}
+  {{ if ge $cnt 2 }}
+    {{ $categoriesList = $categoriesList | append (dict "name" $cleanedName "originalName" $name "count" $cnt) }}
+  {{ end }}
+{{ end }}
+
+{{ $sortedCategories := sort $categoriesList "count" "desc" }}
+
+{{ range $categories := $sortedCategories }}
+  {{ with $.Site.GetPage (printf "/categories/%s" $categories.originalName) }}
+    <a href="{{ .RelPermalink }}" title="All pages with categories <i>{{ $categories.name }}</i>">{{ $categories.name }}</a>/
+  {{ end }}
+{{ end }}
 
 {{ end }}
