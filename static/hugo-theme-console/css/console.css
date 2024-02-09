@@ -371,7 +371,7 @@ margin-right: 20%;
     .logo {
         font-weight: normal;
         padding: calc(var(--global-space) * 1) 0 calc(var(--global-space) * 2);
-        font-size: 150%;
+        font-size: 105%;
     }
 
 

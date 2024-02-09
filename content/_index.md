@@ -6,7 +6,7 @@ title = "Sound Designer & Composer"
 <br></br>
 I am a sound designer and composer based in Copenhagen, specializing in sonic interaction and audio hardware design since 2016. I hold a master's degree in audiodesign from Aarhus University.
 
-In my practice I am interested in __how we interact with sound making systems__, whether it be designing tools that enables sound designers to create more expressive sounds, art installations with interactive components that encourages audience exploration or games in which the sound dynamically responds to players actions. In this pursuit, I am to reveal new dimesions of sonic expression, challanging the existing relationship between sound and interation.
+In my practice I am interested in __how we interact with sound making systems__, whether it be designing tools that enables sound designers to create more expressive sounds, art installations with interactive components that encourages audience exploration or games in which the sound dynamically responds to players actions.
 
 In recent years I have worked on various projects including; transforming an [art installation to an expressive instrument]({{< ref "/projects/plant-sensorium-liveset" >}} "Live set with 12 plants") and developing a [wearable instrument]({{< ref "/projects/prototype-enchanted-amplifier" >}} "enchanted-amp") for a live performance at the Royal Danish Theater.
 
