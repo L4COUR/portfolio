@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Frederik la Cour/projects/plant-sensorium-liveset/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://example.com/hugo-theme-console/css/terminal-0.7.2.min.css">
+    <link rel="stylesheet" href="https://example.com/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://example.com/hugo-theme-console/css/console.css">
+    
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Plant Sensorium Live" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/projects/plant-sensorium-liveset/" />
+
+
+  
+<meta property="og:image" content="https://example.com/projects/plant-sensorium-liveset/plantsensoriumlive_poster_hu4b74de47d3137fb0de90f5bf92ba3883_3567506_400x0_resize_q75_box.jpg">
+
+<meta property="article:published_time" content="2023-09-30T00:00:00+00:00" />
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/projects/plant-sensorium-liveset/plantsensoriumlive_poster_hu4b74de47d3137fb0de90f5bf92ba3883_3567506_400x0_resize_q75_box.jpg">
+
+
+
+<meta name="twitter:title" content="Plant Sensorium Live"/>
+<meta name="twitter:description" content="
+  
+
+
+In late august I was approached by Margrete Lodahl Rolighed and asked I was interested in performing live electronic music together with the &lsquo;Plante Sensorium&rsquo; installation for the Processing Community Day 2023 at the Aarhus school of architecture."/>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://example.com/" class="no-style site-name">Frederik la Cour</a>:~# 
+              <a href='https://example.com/projects'>projects</a>/<a href='https://example.com/projects/plant-sensorium-liveset'>plant-sensorium-liveset</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://example.com/index.html/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://example.com/cv/" typeof="ListItem">cv/</a></li>
+                
+                <li><a href="mailto:%20frederiklacour@protonmail.com" typeof="ListItem">contact/</a></li>
+                
+                <li><a href="https://www.instagram.com/la__cour/" typeof="ListItem">instagram/</a></li>
+                
+                <li><a href="https://example.com/sound/" typeof="ListItem">sound/</a></li>
+                
+                <li><a href="https://example.com/projects/" typeof="ListItem">projects/</a></li>
+                
+                <li><a href="https://example.com/workshops/" typeof="ListItem">workshops/</a></li>
+                
+                <li><a href="https://example.com/performance/" typeof="ListItem">performance/</a></li>
+                
+                <li><a href="https://example.com/research/" typeof="ListItem">research/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container animated zoomIn fast" >
+        
+<div><strong>Plant Sensorium Live</strong>
+<br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/kyorEDb8eLk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In late august I was approached by Margrete Lodahl Rolighed and asked I was interested in performing live electronic music together with the &lsquo;Plante Sensorium&rsquo; installation for the Processing Community Day 2023 at the Aarhus school of architecture.</p>
+<p>Margrete had been working together with Marcus Due Jensen and Martin Rossing Mørk on coupling 12 plants with capacitive sensors which enabled them to send triggers that could be interpreted through sound and light. The &lsquo;Plante Sensorium&rsquo; installtion had earlier the same year debuted at Maker Faire Aarhus. However, for Processing Community Day 2023, We saw an oppertunity to transform the installation into an instrument.</p>
+<p><img src="plantsensoriumlive_setup-cropped.png" alt=""></p>
+<h2 id="from-installation-to-instrument">From installation to instrument</h2>
+<p>In order to achieve this transformation it was necessary to understand technical infrastructure of &lsquo;Plante Sensorium&rsquo;. Each individual plant with capacitive sensor had its own address (A1, A2, A3, B1, B2, B3, C1, C2&hellip;etc) and was connected to a sensor box in which all of the sensor inputs was read by an arduino as an analog input. The arduino would parse all of the data from the plants via GPIO pins to a Raspberry Pi. A processing sketch running on the Pi would interpret the raw analog plant data and send the data via Open Sound Control (OSC) on a specified IP with a specified port. The OSC data stream was then sent out from the Pi via an ethernet cable.</p>
+<p><img src="plantsensorium-map.png" alt=""></p>
+<p>To access the data from &lsquo;Plante Sensorium&rsquo; all I had to do was plug in the ethernet cable to my laptop, and create a patch with MaxMSP to recieve OSC communication. Having ensured that this minimum functionality worked I proceeded to develop a custom max for live device which I could use inside of ableton to map the data from the 12 plants to parameters of audio FX&rsquo;s in ableton. While this gave the plants control in the digital processing of audio I was curious to explore whether I could have the plants control parameters on my eurorack synthesizer.</p>
+<p>Using a DIY Bela Pepper module I was able to make a pure data patch that would allow me to send data to the module via OSC and output the plant data as control voltage (CV) which would allow the plants data to control pitch, filter, LFO, envelope, delay..etc on hardware, and make the performance more engaging.</p>
+<p><img src="plantsens-maxforlivedev.png" alt=""></p>
+<h2 id="contributors">Contributors</h2>
+<ul>
+<li>audio/interaktiondesign, production lead: Martin Rossing Mørk</li>
+<li>composer and sound designer: Frederik la Cour</li>
+<li>digital designer: Margrete Lodahl Rolighed</li>
+<li>user experience designer: Marcus Due Jensen</li>
+</ul>
+<h2 id="thanks-to">Thanks to</h2>
+<ul>
+<li>Anders Visti</li>
+<li>Aarhus University</li>
+</ul>
+<p><img src="PlantSensoriumLive_team.jpeg" alt=""></p>
+
+<a href="/portfolio/tags/sound-designer">sound designer</a>/ <a href="/portfolio/tags/interaction-designer">interaction designer</a>/ 
+<a href="/portfolio/categories/live-performance">live performance</a>/ <a href="/portfolio/categories/physical-computing">physical computing</a>/ </div>
+
+
+        <div class="footer">
+    <div class="footer-copyright">
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>
+        | <strong>Frederik la Cour </strong>
+        </p>
+        <p>
+          <a href="https://www.instagram.com/la__cour/" target="_blank">Instagram</a>,
+           <a href="https://www.linkedin.com/in/l4cour/" target="_blank">Linkedin</a>,
+           <a href="https://github.com/L4COUR/" target="_blank">Github</a>
+          </p>
+    </div>
+
+    <div class="footer-Contact">
+<strong>Contact</strong>
+<br>
+      <a href = "mailto: frederiklacour@protonmail.com">frederiklacour@protonmail.com</a>
+      <p>Tel: +45 21 66 78 37</p>
+    
+  </div>
+</div>
+
+        
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on Frederik la Cour</title>
+    <link>https://example.com/categories/teaching/</link>
+    <description>Recent content in teaching on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ableton Education Tour</title>
+      <link>https://example.com/workshops/ableton-educational-tour-audiodesign/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/ableton-educational-tour-audiodesign/</guid>
+      <description>&lt;p&gt;Ableton and Audiodesign at Aarhus University have come together to provide participants with an introduction to new features in Ableton Live 11, and an advanced-level workshop followed by a Q&amp;amp;A session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with Sonic Pi</title>
+      <link>https://example.com/workshops/live-coding-sonicpi/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/live-coding-sonicpi/</guid>
+      <description>&lt;p&gt;In this workshop, Frederik la Cour and Rolf Holm will introduce you to live-coding as a performative practice and teach you the basics of Live Coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with ORCA</title>
+      <link>https://example.com/workshops/live-coding-orca/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/live-coding-orca/</guid>
+      <description>&lt;p&gt;Frederik la Cour introduces basic principles of ORCA and Pilot, and lets participants work with these on their own. By the end of the workshop, we&amp;rsquo;ll present our work to each other. Bring your laptop and a pair of headphones&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Design: Elektronisk Musik Workshop</title>
+      <link>https://example.com/workshops/electronic-music-workshop/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/electronic-music-workshop/</guid>
+      <description>&lt;p&gt;The Electronic Music Workshop will cover fundamental sound synthesis topics such as waveforms, ADSR, and different synthesis methods.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

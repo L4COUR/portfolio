@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sound installation on Frederik la Cour</title>
+    <link>https://example.com/categories/sound-installation/</link>
+    <description>Recent content in sound installation on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/sound-installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overflade (Surface)</title>
+      <link>https://example.com/projects/surface-overflade/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/surface-overflade/</guid>
+      <description>&lt;p&gt;I designed and composed a 20 minut looping soundscape. Using eurorack modular patches, water splashes, and weather sounds, I wove a narrative of exploration. Electronic pulses fueled curiosity, while ethereal textures and climate sounds added magic. The U-boat phase featured sonar pings and water splashes for intrigue. Balancing ambient and unfocused elements, the soundscape flowed seamlessly, inviting the audience into an immersive, playful exploration of sonic textures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

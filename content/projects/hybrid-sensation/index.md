@@ -1,6 +1,6 @@
 +++
 image = "hybridsensation-mixedreality.png"
-date = "2023-10-24"
+date = "2023-01-24"
 title = "Hybrid Sensation"
 tags = ["sound engineer", "VR technician"]
 categories = ["virtual reality", "mixed reality"]
@@ -52,7 +52,7 @@ Jakob la Cour Studio’s ‘Hybrid Sensation’ is selected for KSelekt signatur
 Made possible with support from Wonderland and The Danish Arts Foundation.
 
 It sounds like you had a significant and multifaceted role in creating a VR mixed reality experience at the Danish Royal Theater. 
-
+2023-10-24
 ![](hybridsensation_2.png)
 ## My Role
 My role required a deep understanding of creative and technical aspects of mixed reality experiences. My contributions in sound directions, technical problem-solving, and collaboration with the composer played a crucial role in bringing the project to life.

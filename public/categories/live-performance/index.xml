@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>live performance on Frederik la Cour</title>
+    <link>https://example.com/categories/live-performance/</link>
+    <description>Recent content in live performance on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/live-performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plant Sensorium Live</title>
+      <link>https://example.com/projects/plant-sensorium-liveset/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/plant-sensorium-liveset/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kyorEDb8eLk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In late august I was approached by Margrete Lodahl Rolighed and asked I was interested in performing live electronic music together with the &amp;lsquo;Plante Sensorium&amp;rsquo; installation for the Processing Community Day 2023 at the Aarhus school of architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feum Live Performance</title>
+      <link>https://example.com/performance/feum-liveperformance/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/feum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Momentum Live Performance</title>
+      <link>https://example.com/performance/momentum-liveperformance/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/momentum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engelsholm: Audioreactive Live Performance</title>
+      <link>https://example.com/performance/engelsholm-audioreactive-liveperformance/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/engelsholm-audioreactive-liveperformance/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/OBivTo-QB5A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

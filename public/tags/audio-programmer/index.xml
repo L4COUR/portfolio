@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audio programmer on Frederik la Cour</title>
+    <link>https://example.com/tags/audio-programmer/</link>
+    <description>Recent content in audio programmer on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/audio-programmer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mortalities</title>
+      <link>https://example.com/projects/mortalities-vropera/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/mortalities-vropera/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/z7PCftyA1-E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I designed and implemented sound effects using Wwise and Unity. Worked closely together with SØS Gunver Ryberg in implementing her compositions through a combination of ambisonics and object-based audio within Wwise middleware.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DADIU: Ascent</title>
+      <link>https://example.com/projects/dadiu-graduation-game/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/dadiu-graduation-game/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cSlSZQ82UgA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I designed and implemented sound effects using Wwise and Unity.
+Graduation Game from the DADIU internship in Aalborg as part of Wizbrew Entertinment&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

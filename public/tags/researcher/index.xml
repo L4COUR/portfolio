@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>researcher on Frederik la Cour</title>
+    <link>https://example.com/tags/researcher/</link>
+    <description>Recent content in researcher on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/researcher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audiodesign: Masters thesis</title>
+      <link>https://example.com/research/audiodesign-mastersthesis/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/audiodesign-mastersthesis/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cgs24Y4vIjI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In my thesis I am investigating Poul la Cour’s “tonestrøms-apparat” through media archaeological methods grounded in patent drawings, reproduction and re-enactment with the aim to demonstrate “tonestrøms-apparatets” epistemological implications of our understanding of contemporary digital medias.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wave Field Synthesis experiments</title>
+      <link>https://example.com/research/wave-field-synthesis-audiodesign-aarhus/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/wave-field-synthesis-audiodesign-aarhus/</guid>
+      <description>&lt;p&gt;Researching and experimenting with wave field synthesis at Aarhus University&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Frederik la Cour</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>composer</title>
+      <link>https://example.com/tags/composer/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/composer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sound designer</title>
+      <link>https://example.com/tags/sound-designer/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/sound-designer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>interaction designer</title>
+      <link>https://example.com/tags/interaction-designer/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/interaction-designer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>audio programmer</title>
+      <link>https://example.com/tags/audio-programmer/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/audio-programmer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sound engineer</title>
+      <link>https://example.com/tags/sound-engineer/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/sound-engineer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VR technician</title>
+      <link>https://example.com/tags/vr-technician/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/vr-technician/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>researcher</title>
+      <link>https://example.com/tags/researcher/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/researcher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>moderator</title>
+      <link>https://example.com/tags/moderator/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/moderator/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

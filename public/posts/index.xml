@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Frederik la Cour</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sound Design Reel</title>
+      <link>https://example.com/posts/sound-design-reel/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/sound-design-reel/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/GujKjeDwIgw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Audiodesign: Masters thesis</title>
+      <link>https://example.com/posts/audiodesign-mastersthesis/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/audiodesign-mastersthesis/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cgs24Y4vIjI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In my thesis I am investigating Poul la Cour’s “tonestrøms-apparat” through media archaeological methods grounded in patent drawings, reproduction and re-enactment with the aim to demonstrate “tonestrøms-apparatets” epistemological implications of our understanding of contemporary digital medias.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wave Field Synthesis experiments</title>
+      <link>https://example.com/posts/wave-field-synthesis-audiodesign-aarhus/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/wave-field-synthesis-audiodesign-aarhus/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;wfs64ch288cm.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Researching and experimenting with wave field synthesis at Aarhus University&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ableton Education Tour</title>
+      <link>https://example.com/posts/ableton-educational-tour-audiodesign/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/ableton-educational-tour-audiodesign/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;EDU_Tour_Poster_A4_Aarhus_University_Frederic.jpg&#34; alt=&#34;&#34;&gt;
+Ableton and Audiodesign at Aarhus University have come together to provide participants with an introduction to new features in Ableton Live 11, and an advanced-level workshop followed by a Q&amp;amp;A session.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with Sonic Pi</title>
+      <link>https://example.com/posts/live-coding-sonicpi/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/live-coding-sonicpi/</guid>
+      <description>&lt;p&gt;In this workshop, Frederik la Cour and Rolf Holm will introduce you to live-coding as a performative practice and teach you the basics of Live Coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with ORCA</title>
+      <link>https://example.com/posts/live-coding-orca/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/live-coding-orca/</guid>
+      <description>&lt;p&gt;Frederik la Cour introduces basic principles of ORCA and Pilot, and lets participants work with these on their own. By the end of the workshop, we&amp;rsquo;ll present our work to each other. Bring your laptop and a pair of headphones&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with ORCA</title>
+      <link>https://example.com/posts/matrix-for-live/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/matrix-for-live/</guid>
+      <description>&lt;p&gt;Frederik la Cour introduces basic principles of ORCA and Pilot, and lets participants work with these on their own. By the end of the workshop, we&amp;rsquo;ll present our work to each other. Bring your laptop and a pair of headphones&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Design: Elektronisk Musik Workshop</title>
+      <link>https://example.com/posts/electronic-music-workshop/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/electronic-music-workshop/</guid>
+      <description>&lt;p&gt;The Electronic Music Workshop will cover fundamental sound synthesis topics such as waveforms, ADSR, and different synthesis methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feum Live Performance</title>
+      <link>https://example.com/posts/feum-liveperformance/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/feum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Momentum Live Performance</title>
+      <link>https://example.com/posts/momentum-liveperformance/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/momentum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engelsholm: Audioreactive Live Performance</title>
+      <link>https://example.com/posts/engelsholm-audioreactive-liveperformance/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/engelsholm-audioreactive-liveperformance/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/OBivTo-QB5A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

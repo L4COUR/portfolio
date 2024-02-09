@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mixed reality on Frederik la Cour</title>
+    <link>https://example.com/categories/mixed-reality/</link>
+    <description>Recent content in mixed reality on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/mixed-reality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hybrid Sensation</title>
+      <link>https://example.com/projects/hybrid-sensation/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/hybrid-sensation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;hybridsensation_real.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Immersive and multisensory experience involving interaction and physical contact with actors and participants. Multisensory interaction within the virtual and physical reality. Produced by Jakob la Cour Studio
+Performed at The Royal Danish Theatre, Skuespilhuset
+As part of K:SELEKT&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

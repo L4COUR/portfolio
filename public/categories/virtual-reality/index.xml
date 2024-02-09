@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtual reality on Frederik la Cour</title>
+    <link>https://example.com/categories/virtual-reality/</link>
+    <description>Recent content in virtual reality on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/virtual-reality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mortalities</title>
+      <link>https://example.com/projects/mortalities-vropera/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/mortalities-vropera/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/z7PCftyA1-E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I designed and implemented sound effects using Wwise and Unity. Worked closely together with SØS Gunver Ryberg in implementing her compositions through a combination of ambisonics and object-based audio within Wwise middleware.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hybrid Sensation</title>
+      <link>https://example.com/projects/hybrid-sensation/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/hybrid-sensation/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;hybridsensation_real.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Immersive and multisensory experience involving interaction and physical contact with actors and participants. Multisensory interaction within the virtual and physical reality. Produced by Jakob la Cour Studio
+Performed at The Royal Danish Theatre, Skuespilhuset
+As part of K:SELEKT&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

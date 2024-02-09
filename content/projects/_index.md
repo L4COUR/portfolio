@@ -1,6 +1,4 @@
 +++
-title = "Projects"
+title = "Selected Projects"
 type = "gallery"
 +++
-
-# Selected Projects

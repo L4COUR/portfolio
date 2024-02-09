@@ -14,20 +14,41 @@ enableInlineShortcodes = true
 
   [[params.navlinks]]
   name = "about/"
-  url = "about/"
+  url = "index.html/"
 
       [[params.navlinks]]
   name = "cv/"
   url = "cv/"
+
+      [[params.navlinks]]
+  name = "contact/"
+  url = "mailto: frederiklacour@protonmail.com"
+
+      [[params.navlinks]]
+  name = "instagram/"
+  url = "https://www.instagram.com/la__cour/"
   
+  [[params.navlinks]]
+  name = "sound/"
+  url = "sound/"
+
   [[params.navlinks]]
   name = "projects/"
   url = "projects/"
 
     [[params.navlinks]]
-  name = "posts/"
-  url = "posts/"
+  name = "workshops/"
+  url = "workshops/"
+
+      [[params.navlinks]]
+  name = "performance/"
+  url = "performance/"
+
+       [[params.navlinks]]
+  name = "research/"
+  url = "research/"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
+  priority = "priority"

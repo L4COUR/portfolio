@@ -1,9 +1,9 @@
 {{ define "main" }}
 <div><strong>{{ .Page.Title }}</strong>
-{{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
-{{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
 <br>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}
+{{ if .Params.tags }}{{range .Params.tags}}<a href="{{ "/portfolio/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}
+{{ if .Params.categories }}{{range .Params.categories}}<a href="{{ "/portfolio/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>/ {{end}}{{end}}</div>
 
 {{ end }}

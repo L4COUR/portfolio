@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Frederik la Cour</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sound installation</title>
+      <link>https://example.com/categories/sound-installation/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/sound-installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>live performance</title>
+      <link>https://example.com/categories/live-performance/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/live-performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>physical computing</title>
+      <link>https://example.com/categories/physical-computing/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/physical-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>game audio</title>
+      <link>https://example.com/categories/game-audio/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/game-audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>virtual reality</title>
+      <link>https://example.com/categories/virtual-reality/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/virtual-reality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mixed reality</title>
+      <link>https://example.com/categories/mixed-reality/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/mixed-reality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>research</title>
+      <link>https://example.com/categories/research/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>multichannel audio</title>
+      <link>https://example.com/categories/multichannel-audio/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/multichannel-audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>teaching</title>
+      <link>https://example.com/categories/teaching/</link>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/categories/teaching/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

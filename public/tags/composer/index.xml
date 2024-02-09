@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>composer on Frederik la Cour</title>
+    <link>https://example.com/tags/composer/</link>
+    <description>Recent content in composer on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/tags/composer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overflade (Surface)</title>
+      <link>https://example.com/projects/surface-overflade/</link>
+      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/surface-overflade/</guid>
+      <description>&lt;p&gt;I designed and composed a 20 minut looping soundscape. Using eurorack modular patches, water splashes, and weather sounds, I wove a narrative of exploration. Electronic pulses fueled curiosity, while ethereal textures and climate sounds added magic. The U-boat phase featured sonar pings and water splashes for intrigue. Balancing ambient and unfocused elements, the soundscape flowed seamlessly, inviting the audience into an immersive, playful exploration of sonic textures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with Sonic Pi</title>
+      <link>https://example.com/workshops/live-coding-sonicpi/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/live-coding-sonicpi/</guid>
+      <description>&lt;p&gt;In this workshop, Frederik la Cour and Rolf Holm will introduce you to live-coding as a performative practice and teach you the basics of Live Coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live Coding with ORCA</title>
+      <link>https://example.com/workshops/live-coding-orca/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/live-coding-orca/</guid>
+      <description>&lt;p&gt;Frederik la Cour introduces basic principles of ORCA and Pilot, and lets participants work with these on their own. By the end of the workshop, we&amp;rsquo;ll present our work to each other. Bring your laptop and a pair of headphones&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Design: Elektronisk Musik Workshop</title>
+      <link>https://example.com/workshops/electronic-music-workshop/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/workshops/electronic-music-workshop/</guid>
+      <description>&lt;p&gt;The Electronic Music Workshop will cover fundamental sound synthesis topics such as waveforms, ADSR, and different synthesis methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feum Live Performance</title>
+      <link>https://example.com/performance/feum-liveperformance/</link>
+      <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/feum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Momentum Live Performance</title>
+      <link>https://example.com/performance/momentum-liveperformance/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/momentum-liveperformance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engelsholm: Audioreactive Live Performance</title>
+      <link>https://example.com/performance/engelsholm-audioreactive-liveperformance/</link>
+      <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/performance/engelsholm-audioreactive-liveperformance/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/OBivTo-QB5A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

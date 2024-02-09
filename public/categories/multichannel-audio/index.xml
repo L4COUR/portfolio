@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multichannel audio on Frederik la Cour</title>
+    <link>https://example.com/categories/multichannel-audio/</link>
+    <description>Recent content in multichannel audio on Frederik la Cour</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/multichannel-audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wave Field Synthesis experiments</title>
+      <link>https://example.com/research/wave-field-synthesis-audiodesign-aarhus/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/wave-field-synthesis-audiodesign-aarhus/</guid>
+      <description>&lt;p&gt;Researching and experimenting with wave field synthesis at Aarhus University&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
