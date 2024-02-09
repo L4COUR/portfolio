@@ -14,7 +14,7 @@ enableInlineShortcodes = true
 
   [[params.navlinks]]
   name = "about/"
-  url = "index.html/"
+  url = ""
 
       [[params.navlinks]]
   name = "cv/"
