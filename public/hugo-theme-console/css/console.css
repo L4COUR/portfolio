@@ -327,10 +327,7 @@ margin-right: 20%;
     color: #e8eff2;
 }
 
-
-
-
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 480px) {
     .site-name {
         width: 2ch;
         overflow: hidden;
@@ -345,28 +342,36 @@ margin-right: 20%;
         flex-direction: column;
         display: flex;
         position: relative;
+        width: 100%;
     }
 
     .terminal-menu ul {
+
         align-items: flex-start;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 100%;
         
         line-height: 30px;
-        justify-content: center;
+        justify-content: right;
         margin-top: 5px;
         font-size: 150%;
     }
 
+    .terminal-menu {
+        margin-bottom: -20%;
+    }
+
     .terminal-menu li {
+        margin-top: 10px;
         margin-right: 20px;
     }
 
     .logo {
         font-weight: normal;
         padding: calc(var(--global-space) * 1) 0 calc(var(--global-space) * 2);
-        font-size: 150%;
+        font-size: 105%;
     }
 
 

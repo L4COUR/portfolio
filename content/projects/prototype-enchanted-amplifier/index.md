@@ -12,11 +12,11 @@ type = "gallery"
 
 Using Bela and accelerometer breakboards for a wearable interface that manipulates real-time sound.
 <!--more-->
+![](Enchanted_Amplifier_ReworkArtisticresearch_Bela.jpeg)
+Image from [ReWork Artistic Exploratory:
+Research and Art Exhibition](https://kuto.dk/lobende_events/research-and-art-exhibition-rae2/) Jakob la Cour performing through the enchanted amplifier.
 
-[ReWork Artistic Exploratory:
-Research and Art Exhibition](https://kuto.dk/lobende_events/research-and-art-exhibition-rae2/)
-
-## Making a circuit wearable
+## Wearable designprocess
 ![](enchantamp-set.jpg)
 
 At its core the circuit consists of a Bela microcontroller board, equipped with a wifi-dongle, powered through USB by a voltaic V25 battery pack. This setup enables the circuit to run wirelessly without restricting the movement of the person wearing the device with cabled connections to a laptop.
